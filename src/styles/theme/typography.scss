@@ -1,0 +1,111 @@
+// ================================================
+// Typography
+// ================================================
+
+// Header
+// ================================================
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.type-h1,
+.type-h2,
+.type-h3,
+.type-h4,
+.type-h5,
+.type-h6 {
+    font-family: theme('fontFamily.serif');
+    color: theme('colors.black');
+}
+
+p,
+.type-p-large,
+.type-p-medium,
+.type-p-normal,
+.type-p-small {
+    font-family: theme('fontFamily.sans-serif');
+    color: theme('colors.black');
+}
+
+h1,
+.type-h1 {
+    font-size: theme('fontSize.h1');
+    line-height: theme('lineHeight.h1');
+    letter-spacing: theme('letterSpacing.h1');
+}
+
+h2,
+.type-h2 {
+    font-size: theme('fontSize.h2');
+    line-height: theme('lineHeight.h2');
+    letter-spacing: theme('letterSpacing.h2');
+
+}
+
+h3,
+.type-h3 {
+    font-size: theme('fontSize.h3');
+    line-height: theme('lineHeight.h3');
+    letter-spacing: theme('letterSpacing.h3');
+
+
+}
+
+h4,
+.type-h4 {
+    font-size: theme('fontSize.h4');
+    line-height: theme('lineHeight.h4');
+    letter-spacing: theme('letterSpacing.h4');
+
+
+}
+
+h5,
+.type-h5 {
+    @apply uppercase;
+    font-size: theme('fontSize.h5');
+    line-height: theme('lineHeight.h5');
+    letter-spacing: theme('letterSpacing.h5');
+}
+
+h6,
+.type-h6 {
+    font-size: theme('fontSize.h6');
+    line-height: theme('lineHeight.h6');
+    letter-spacing: theme('letterSpacing.h6');
+}
+
+// Paragraph
+// ================================================
+
+
+.type-p-large {
+    font-size: theme('fontSize.p-large');
+    line-height: theme('lineHeight.p-large');
+    letter-spacing: theme('letterSpacing.p-large');
+}
+
+.type-p-medium {
+    font-size: theme('fontSize.p-medium');
+    line-height: theme('lineHeight.p-medium');
+    letter-spacing: theme('letterSpacing.p-medium');
+}
+
+p,
+.type-p-normal {
+    color: theme('colors.black');
+    font-size: theme('fontSize.p');
+    line-height: theme('lineHeight.p');
+    letter-spacing: theme('letterSpacing.p');
+}
+
+.type-p-small {
+    font-size: theme('fontSize.p-small');
+    line-height: theme('lineHeight.p-small');
+    letter-spacing: theme('letterSpacing.p-small');
+}
+
+// Custom Typography Classes
+// ================================================

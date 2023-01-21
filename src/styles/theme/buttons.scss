@@ -1,0 +1,89 @@
+// ================================================
+// Buttons / Links
+// ================================================
+
+.btn {
+  @apply flex font-normal py-2 px-4 rounded;
+
+  &.sm {
+    @apply px-3 py-2 text-p-small leading-p-small;
+  }
+  
+  &.lg {
+    @apply px-4 py-3 text-p-medium leading-p-medium;
+  }
+  
+  &.primary {
+    @apply bg-blue-400 text-white;
+
+    &:hover {
+      @apply bg-blue-500 text-white;
+    }
+    &:disabled {
+      @apply bg-blue-300 text-white;
+    }
+  }
+  
+  &.primary-invert {
+    @apply bg-white border border-blue-400 text-blue-400;
+
+    &:hover {
+      @apply bg-blue-200 border border-blue-400 text-blue-400;
+    }
+    &:disabled {
+      @apply bg-blue-50 border border-blue-300 text-blue-300;
+    }
+  }
+  
+  &.secondary {
+    @apply bg-gray-50 text-gray-500;
+
+    &:hover {
+      @apply bg-gray-300 text-white;
+    }
+    &:disabled {
+      @apply bg-gray-50 text-gray-100;
+    }
+  }
+
+  &.secondary-invert {
+    @apply bg-white border border-gray-400 text-gray-400;
+
+    &:hover {
+      @apply bg-gray-50 border border-gray-400 text-gray-400;
+    }
+    &:disabled {
+      @apply bg-white border border-gray-100 text-gray-100;
+    }
+  }
+
+  &.secondary-plain {
+    @apply text-blue-500;
+
+    &:hover {
+      @apply bg-gray-50 text-blue-500;
+    }
+    &:disabled {
+      @apply bg-gray-50 text-gray-100;
+    }
+  }
+
+  &.secondary-plain-invert {
+    @apply bg-gray-50 text-gray-500;
+
+    &:hover {
+      @apply bg-gray-300 text-white;
+    }
+    &:disabled {
+      @apply bg-gray-50 text-gray-100;
+    }
+  }
+  
+  &.disabled {
+    @apply cursor-not-allowed;
+
+    &:hover {
+      @apply cursor-not-allowed;
+    }
+  }
+}

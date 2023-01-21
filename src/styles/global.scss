@@ -1,0 +1,22 @@
+// Tailwind Baseline Styles
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+// Vendor Styles
+
+// Library Style Wrappers
+
+// Theme Styles
+@import './theme/layout.scss';
+@import './theme/fonts.scss';
+@import './theme/typography.scss';
+@import './theme/buttons.scss';
+@import './theme/forms.scss';
+@import './theme/override.scss';
+@import './theme/elements.scss';
+
+// Slice Specific styles
+
+// Tailwind Generated Utilities
+@import 'tailwindcss/utilities';
+

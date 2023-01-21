@@ -1,0 +1,14 @@
+// ================================================
+// Overrides
+// ================================================
+
+// Remove browser default marker on details summary
+details {
+    summary {
+        display: flex;
+        &::-webkit-details-marker,
+        &::marker {
+            display: none;
+        }
+    }  
+} 

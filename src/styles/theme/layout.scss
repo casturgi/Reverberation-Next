@@ -1,0 +1,27 @@
+// ================================================
+// Layout
+// ================================================
+// Useful if you need to do sticky header or different header animations
+
+.layout-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    &--fixed-header {
+        padding-top: theme('height.header');
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: theme('height.header');
+        }
+    }
+}
+
+main#mainContent {
+    flex: 1 0 0;
+    flex-direction: column;
+}
