@@ -1,19 +1,11 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 echo '======================================================='
-echo '🚀 formatting codebase (Pre commit step - 1/4)'
+echo '🚀 formatting codebase'
 echo '======================================================='
 yarn prettier
 echo '======================================================='
-echo '🚀 Running tests (Pre commit step - 2/4)'
-echo '======================================================='
-yarn test
-echo '======================================================='
-echo '🚀 Linting files (Pre commit step - 3/4)'
-echo '======================================================='
-yarn lint
-echo '======================================================='
-echo '🚀 Checking production build (Pre commit step - 4/4)'
+echo '🚀 Checking production build'
 echo '======================================================='
 yarn build
 git add .

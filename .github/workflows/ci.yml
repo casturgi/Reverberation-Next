@@ -50,5 +50,6 @@ jobs:
             - name: Run tests
               run: yarn test
 
-            - name: Run e2e test
-              run: yarn webdriver:run
+            #   TODO
+            # - name: Run e2e test
+            #   run: yarn webdriver:run

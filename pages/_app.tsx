@@ -4,13 +4,12 @@ import { SessionProvider } from "next-auth/react";
 import { NextPage } from "next";
 import "@styles/global.scss";
 
-import { Session } from "next-auth";
+import Link from "next/link";
+import { PrismicProvider } from "@prismicio/react";
+import { PrismicPreview } from "@prismicio/next";
+import { repositoryName } from "../prismicio";
 
-declare global {
-    interface Window {
-        analytics: any;
-    }
-}
+import { Session } from "next-auth";
 
 type Page<P = Record<string, unknown>> = NextPage<P> & {
     getLayout?: (page: ReactNode) => ReactNode;
@@ -29,8 +28,15 @@ export default function App({
     const getLayout = Component.getLayout ?? ((page: ReactNode) => page);
 
     return (
-        <SessionProvider session={pageProps.session} refetchInterval={30 * 60}>
-            {getLayout(<Component {...pageProps} />)}
-        </SessionProvider>
+        <PrismicProvider internalLinkComponent={(props) => <Link {...props} />}>
+            <PrismicPreview repositoryName={repositoryName}>
+                <SessionProvider
+                    session={pageProps.session}
+                    refetchInterval={30 * 60}
+                >
+                    {getLayout(<Component {...pageProps} />)}
+                </SessionProvider>
+            </PrismicPreview>
+        </PrismicProvider>
     );
 }

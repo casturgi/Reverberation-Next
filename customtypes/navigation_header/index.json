@@ -1,0 +1,46 @@
+{
+  "id": "navigation_header",
+  "label": "Navigation Header",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "desktop_logo": {
+        "type": "Image",
+        "config": {
+          "label": "Desktop | Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "mobile_logo": {
+        "type": "Image",
+        "config": {
+          "label": "Mobile | Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "show_search": {
+        "type": "Boolean",
+        "config": {
+          "label": "Show Search",
+          "default_value": false,
+          "placeholder_true": "true",
+          "placeholder_false": "false"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "navigation_item": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

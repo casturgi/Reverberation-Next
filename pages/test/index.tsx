@@ -4,70 +4,7 @@ import { MainLayout } from "@components";
 const Test = (): JSX.Element => {
     return (
         <>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
-            <h1>OTHER PAGE</h1>
+            <h1>Test Prefetching links</h1>
         </>
     );
 };
