@@ -20,10 +20,34 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": [
-        "src/components/*"
+        "components/*"
       ],
       "@components": [
-        "src/components"
+        "components"
+      ],
+      "@context/*": [
+        "context/*"
+      ],
+      "@context": [
+        "context"
+      ],
+      "@customtypes/*": [
+        "customtypes/*"
+      ],
+      "@customtypes": [
+        "customtypes"
+      ],
+      "@layouts/*": [
+        "layouts/*"
+      ],
+      "@layouts": [
+        "layouts"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@pages": [
+        "pages"
       ],
       "@public/*": [
         "public/*"
@@ -31,17 +55,41 @@
       "@public": [
         "public"
       ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@services": [
+        "services"
+      ],
+      "@slices/*": [
+        "slices/*"
+      ],
+      "@slices": [
+        "slices"
+      ],
       "@styles/*": [
-        "src/styles/*"
+        "styles/*"
       ],
       "@styles": [
-        "src/styles"
+        "styles"
       ],
-      "@components/icons/*": [
-        "src/components/icons/*"
+      "@test/*": [
+        "test/*"
       ],
-      "@components/icons": [
-        "src/components/icons"
+      "@test": [
+        "test"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@utils": [
+        "utils"
+      ],
+      "@types/*": [
+        "types/*"
+      ],
+      "@types": [
+        "types"
       ],
       "@graphqlTypes/*": [
         "__generated__/*"
@@ -51,12 +99,6 @@
       ],
       "@i18n": [
         "./i18n"
-      ],
-      "@test/*": [
-        "test/*"
-      ],
-      "@test": [
-        "test"
       ]
     },
     "incremental": true
@@ -64,7 +106,8 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "./.slicemachine/prismicio.d.ts"
   ],
   "exclude": [
     "node_modules",

@@ -1,0 +1,13 @@
+{
+  "_cts": {
+    "navigation_header": {}
+  },
+  "slices": {
+    "NavigationItem": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    }
+  }
+}
