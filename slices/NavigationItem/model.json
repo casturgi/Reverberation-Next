@@ -28,6 +28,14 @@
         }
       },
       "items": {
+        "mega_menu_item_link": {
+          "type": "Link",
+          "config": {
+            "label": "Mega Menu Item | Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
         "mega_menu_item_image": {
           "type": "Image",
           "config": {
@@ -41,14 +49,6 @@
           "config": {
             "label": "Mega Menu Item | Text",
             "placeholder": ""
-          }
-        },
-        "mega_menu_item_link": {
-          "type": "Link",
-          "config": {
-            "label": "Mega Menu Item | Link",
-            "placeholder": "",
-            "select": null
           }
         }
       },

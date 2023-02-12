@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { MainLayout } from "@components";
+import { MainLayout } from "@layouts/main";
 
 const Home = (): JSX.Element => {
     return (

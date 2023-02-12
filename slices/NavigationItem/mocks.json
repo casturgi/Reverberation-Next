@@ -5,7 +5,7 @@
     "primary": {
       "navigation_item_text": {
         "__TYPE__": "FieldContent",
-        "value": "exchange",
+        "value": "writer",
         "type": "Text"
       },
       "navigation_item_url": {
@@ -21,18 +21,28 @@
         "__TYPE__": "GroupItemContent",
         "value": [
           [
+            "mega_menu_item_link",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "https://prismic.io"
+              }
+            }
+          ],
+          [
             "mega_menu_item_image",
             {
               "__TYPE__": "ImageContent",
               "origin": {
                 "id": "main",
-                "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
-                "width": 4160,
-                "height": 3120
+                "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
+                "width": 3958,
+                "height": 3958
               },
-              "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
-              "width": 4160,
-              "height": 3120,
+              "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
+              "width": 3958,
+              "height": 3958,
               "edit": {
                 "zoom": 1,
                 "crop": {
@@ -48,18 +58,8 @@
             "mega_menu_item_text",
             {
               "__TYPE__": "FieldContent",
-              "value": "doll",
+              "value": "frequently",
               "type": "Text"
-            }
-          ],
-          [
-            "mega_menu_item_link",
-            {
-              "__TYPE__": "LinkContent",
-              "value": {
-                "__TYPE__": "ExternalLink",
-                "url": "https://prismic.io"
-              }
             }
           ]
         ]

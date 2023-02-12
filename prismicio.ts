@@ -26,7 +26,7 @@ const routes = [
  *
  * @param config {prismicNext.CreateClientConfig} - Configuration for the Prismic client.
  */
-export const createClient = (config = {}) => {
+export const createClient = (config: prismicNext.CreateClientConfig = {}) => {
     const client = prismic.createClient(sm.apiEndpoint, {
         routes,
         ...config,

@@ -107,6 +107,16 @@ interface NavigationItemSliceDefaultPrimary {
  */
 export interface NavigationItemSliceDefaultItem {
     /**
+     * Mega Menu Item | Link field in *NavigationItem → Items*
+     *
+     * - **Field Type**: Link
+     * - **Placeholder**: *None*
+     * - **API ID Path**: navigation_item.items[].mega_menu_item_link
+     * - **Documentation**: https://prismic.io/docs/core-concepts/link-content-relationship
+     *
+     */
+    mega_menu_item_link: prismicT.LinkField;
+    /**
      * Mega Menu Item | Image field in *NavigationItem → Items*
      *
      * - **Field Type**: Image
@@ -126,16 +136,6 @@ export interface NavigationItemSliceDefaultItem {
      *
      */
     mega_menu_item_text: prismicT.KeyTextField;
-    /**
-     * Mega Menu Item | Link field in *NavigationItem → Items*
-     *
-     * - **Field Type**: Link
-     * - **Placeholder**: *None*
-     * - **API ID Path**: navigation_item.items[].mega_menu_item_link
-     * - **Documentation**: https://prismic.io/docs/core-concepts/link-content-relationship
-     *
-     */
-    mega_menu_item_link: prismicT.LinkField;
 }
 /**
  * Default variation for NavigationItem Slice
